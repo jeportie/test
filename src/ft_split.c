@@ -6,11 +6,11 @@
 /*   By: jeportie <jeportie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 11:47:54 by jeportie          #+#    #+#             */
-/*   Updated: 2024/09/20 17:22:13 by jeportie         ###   ########.fr       */
+/*   Updated: 2024/09/21 18:29:55 by jeportie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_split.h"
+#include "../include/ft_split.h"
 
 static void	ft_free_memory(char **tab, size_t i)
 {

@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FT_SPLIT_H	include/ft_split.h	14;"	d
+GREEN_CHECK	test_src/test_ft_split.c	7;"	d	file:
+GREEN_CIRCLE	test_src/test_ft_split.c	9;"	d	file:
+RED_CIRCLE	test_src/test_ft_split.c	10;"	d	file:
+RED_EXCLAMATION	test_src/test_ft_split.c	8;"	d	file:
+START_TEST	test_src/test_ft_split.c	/^START_TEST(test_empty_string)$/;"	f
+START_TEST	test_src/test_ft_split.c	/^START_TEST(test_multiple_delimiters)$/;"	f
+START_TEST	test_src/test_ft_split.c	/^START_TEST(test_no_delimiter)$/;"	f
+START_TEST	test_src/test_ft_split.c	/^START_TEST(test_null_input)$/;"	f
+START_TEST	test_src/test_ft_split.c	/^START_TEST(test_simple_split)$/;"	f
+ft_count_words	src/ft_split.c	/^static size_t	ft_count_words(char *str, char c)$/;"	f	file:
+ft_extract	src/ft_split.c	/^static char	*ft_extract(const char **s, char c, char **tab, size_t i)$/;"	f	file:
+ft_free_memory	src/ft_split.c	/^static void	ft_free_memory(char **tab, size_t i)$/;"	f	file:
+ft_split	src/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_split_suite	test_src/test_ft_split.c	/^Suite *ft_split_suite(void)$/;"	f
+ft_strlcpy	src/ft_split.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t size)$/;"	f
+ft_substr_len	src/ft_split.c	/^static size_t	ft_substr_len(char *str, char c)$/;"	f	file:
+main	test_src/test_ft_split.c	/^int main(void)$/;"	f
