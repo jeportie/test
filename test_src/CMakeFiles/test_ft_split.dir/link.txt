@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test_ft_split.dir/test_ft_split.c.o CMakeFiles/test_ft_split.dir/home/jeportie/Documents/test/src/ft_split.c.o -o test_ft_split  -lcheck 

@@ -1,0 +1,4 @@
+/home/jeportie/Documents/test/test_src/CMakeFiles/test_ft_split.dir
+/home/jeportie/Documents/test/test_src/CMakeFiles/test.dir
+/home/jeportie/Documents/test/test_src/CMakeFiles/edit_cache.dir
+/home/jeportie/Documents/test/test_src/CMakeFiles/rebuild_cache.dir

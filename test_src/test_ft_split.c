@@ -1,4 +1,5 @@
 #include <check.h>
+
 #include <stdlib.h>  // for malloc, free
 #include <stdio.h>   // for printf
 #include "ft_split.h"  // Your ft_split function declaration
@@ -115,13 +116,8 @@ int main(void)
 
     // Print results with colored icons
     if (number_failed == 0)
-    {
         printf("%s %s All tests passed\n", GREEN_CIRCLE, GREEN_CHECK);
-    }
     else
-    {
         printf("%s %s %d test(s) failed\n", RED_CIRCLE, RED_EXCLAMATION, number_failed);
-    }
-
     return (number_failed == 0) ? EXIT_SUCCESS : EXIT_FAILURE;
 }
